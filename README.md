@@ -16,6 +16,9 @@ Our source of the data was obtained from the Academy Award database and placed i
 - What actor/ actress had the most nominations in a single year?
 - Which film has won the most awards in a ceremony?
 - What directorshave won the most awards/nominations in a ceremony?
+- Why do certain genres outperform others?
+- What factors influence movie nominations?
+- What genres and production companies have the highest probability of being nominated for an Oscar at the next academy award?
 
 ### GitHub Repository:
 - Machine Learning 
