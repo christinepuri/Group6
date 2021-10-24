@@ -17,7 +17,7 @@ Our source of the data was obtained from the Academy Award database and placed i
 - Which film has won the most awards in a ceremony?
 - What directorshave won the most awards/nominations in a ceremony?
 
-## GitHub Repository:
+### GitHub Repository:
 - Machine Learning 
 - Database Integration
 - README.md
