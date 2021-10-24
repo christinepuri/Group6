@@ -26,7 +26,7 @@ Our source of the data was obtained from the Academy Award database and placed i
 - README.md
 - Technology.md
 
-## Machine Learning & Database Integration:
+### Machine Learning & Database Integration:
 - Extract, Transform, Load (ETL)
 - Python
 - PostgreSQL
