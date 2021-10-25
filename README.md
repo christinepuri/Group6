@@ -66,7 +66,7 @@ Our machine learning models will leverage SciKitLearn and ImbalancedLearn Python
 We will leverage D3 Javascript/Tableau to create our dashboard to present our findings.
 
 ### Communication Protocols
-We plan to meet once a week outside of our class time and on an adhoc basis where need be to discuss the progress of the project, any blockers, and to ensure the project is on track. To faciliate easy communication within the group, we create a slack channel for all team members.
+We plan to meet once a week outside of our class time and on an adhoc basis where need be to discuss the progress of the project, any blockers, and to ensure the project is on track. To faciliate easy communication within the group, we created a slack channel for all team members.
 
 
 
