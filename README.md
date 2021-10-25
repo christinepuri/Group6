@@ -1,4 +1,4 @@
-# Group6
+## Machine Learning Models
 
 ![image](https://user-images.githubusercontent.com/85204128/138626710-fcf2d705-241d-4c2f-8b6d-15a008ea1658.png)
 
