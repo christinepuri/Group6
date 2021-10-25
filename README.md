@@ -53,6 +53,9 @@ Due to the selective nature of the Academy, we will assess the majority populati
 #### Database Storage
 We will use PostgreSQL as our relational database storage.
 
+![image](https://user-images.githubusercontent.com/85204128/138626925-0c5e9b0f-1efd-4c8c-b5f8-ebd53b9cd399.png)
+
+
 #### Data Cleaning
 We will use Python to Extract, Transform and Load and perform meaning analysis over the data. We will be using the ImbalancedLearn, Pandas, Numpy, and SciKitLearn packages.
 
