@@ -3,14 +3,13 @@
 ## Technologies Used
 
 ### Data Cleaning and Analysis
-Pandas will be used to clean the movies_oscars.csv data and perform an exploratory analysis. Further analysis will be completed using Python.
+We will use Python to Extract, Transform and Load and perform meaning analysis over the data. We will be using the ImbalancedLearn, Pandas, Numpy, and SciKitLearn packages.
 
 ### Database Storage
-PostgreSQL is the database we intend to use, and we will integrate Jupyter Notebook and VS Code to display the data and refactor code.
+We will use PostgreSQL as our relational database storage.
 
 ### Machine Learning
-The dataset will be run through the ETL process to collect, tranform and load data. 
-SciKitLearn is the ML library we'll be using to conduct linear regression analysis. Our initial training and testing setup include random sampling, SMOTE oversampling, and ClusterCentroids aimed to predict future Oscar nominees. 
+Our machine learning models will leverage SciKitLearn and ImbalancedLearn Python packages. Due to the oscar imbalance, we will use random over/undersampling, SMOTE, Cluster Centroid Undersampling, and/or SMOTEEN.
 
 ### Dashboard
-We will also integrate GitHub for a fully functioning and interactive dashboard. 
+We will leverage D3 Javascript/Tableau to create our dashboard to present our findings.
