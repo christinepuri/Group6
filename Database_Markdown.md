@@ -43,27 +43,3 @@ winner = Boolean of whether the nominee was the winner.
 
 
 
-
-# Next steps for ETL
-
-In this section are the list of columns which are being kept, and those which are being cut.
-
-The following columns will be chopped from movie_metadata due to they do not serve a purpose to furture analysis, whether the information is not being used or it's a redundant column:
-
-adult, belongs_to_a_collection, homepage, original_language, original_title, overview, popularity, poster_path, production_countries, spoken_languages, status,
-tagline, video, title
-
-
-
-
-
-
-TO DO:
-
-Load up everything into an SQL database
-Take a picture of it
-
-Explain ?
-
-Merge?
-Take pic
