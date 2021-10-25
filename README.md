@@ -33,6 +33,9 @@ The main movie dataset was originally sourced from The Movie Database (TMDB) via
 To further our data analysis, we sourced the [Oscars Dataset](https://www.kaggle.com/rounakbanik/the-movies-dataset?select=movies_metadata.csv) which was originally scraped from the official Academy Awards seach site.
 
 ### Machine Learning Model
+
+![image](https://user-images.githubusercontent.com/85204128/138625256-77b58a78-289b-489b-b88e-c9c5167964b3.png)
+
 The objective of our project is to compare different machine learning models to identify the model that yields the best prediction score. The models to be used are logistic regression, linear regression for those "nominated vs not nominated, and a decision tree/random forest model. 
 
 We will look to find the most accurate model.
