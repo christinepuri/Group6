@@ -14,7 +14,9 @@ Jake Littman
 
 #### Data Visualization and Presentation
 Christine Ibrahim Puri
+
 Elena Rivera
+
 Simon Chamorro
 
 #### Technologies
