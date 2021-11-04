@@ -16,12 +16,6 @@ SELECT m.budget, m.release_year, m.revenue, m.runtime, m.title, m.genres,
 SELECT * FROM Combination_Table;
 
 
-/* Getting Distinct IDs*/
-SELECT DISTINCT ON (film) * FROM combination_Table
-
-/*Deleting Duplicates for films*/
-
-
 
 
   
