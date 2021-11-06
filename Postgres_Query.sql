@@ -19,4 +19,6 @@ DROP COLUMN film;
 /* Checking Table */
 SELECT * FROM Combination_Table;
 
-  
+SELECT genres, AVG(budget)
+FROM combination_table
+GROUP BY genres;
