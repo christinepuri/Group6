@@ -11,3 +11,8 @@
 
 ## Interactivity 
  - Creating sets that group a range of years, for example 1990- 2000, 2001 - 2011, etc would create additional dimensions that would allow a user filter by years, and observe changes in relationships between genre and category over the years.
+
+ ## Example of Side-by-Side bar charts
+ ![Budg_Rev_Nom.png](Budg_Rev_Nom.png).
+ 
+
