@@ -1,43 +1,45 @@
-# Starting column names and description
-
-This is a list of columns present in the 2021 VAERS data and their descriptions. This is before any edits to the data are made.
+The following are the original columns of the datasets and their descriptions. These have not been through the ETL process and are the original downloaded state of these columns.
 
 
-VAERS_ID  = Unique ID for event in database
-RECVDATE = Date the report was received
-STATE =  State of Patient’s residence
-AGE_YRS = Patient’s age in years
-CAGE_YRS = Calculated age of patient in years
-CAGE_MO =  Calculated age of patient in months
-SEX = Sex of Patient
-RPT_DATE = Date the form was completed
-SYMPTOM_TEXT = Text input of symptoms
-DIED = Boolean ; If patient died
-DATEDIED = Death date if the patient is deceased
-L_THREAT = Indicates life threatening illness
-ER_VISIT = Emergency room or doctor visit
-HOSPITAL = Indicates if there was hospitalization
-HOSPDAYS = Days the patient was in the hospital
-X_STAY = Indicates if the existing hospitalization was prolonged
-DISABLE = Disability
-RECOVD =  If the patient recover
-VAX_DATE = Vaccination date
-ONSET_DATE = Adverse event onset date
-NUMDAYS = Numbers of days between onset date and vaccination date
-LAB_DATA = Diagnostic lab data
-V_ADMINBY = Type of facility where the vaccine was administered in
-V_FUNDBY = type of funds used to purchase vaccines
-OTHER_MEDS = Other medications
-CUR_ILL = Illnesses present at the time of vaccination
-HISTORY =  Chronic or long-standing health conditions
-PRIOR_VAX = Prior vaccination information
-SPLTTYPE = Manufacturer/Immunization project report number
-FORM_VERS = VAERS form version 1 or 2
-BIRTH_DEFECT = Indicates if there was a birth defect present
-OFC_VISIT = Doctor, clinic or other healthcare provider visit
-ER_ED_VISIT = Emergency room/department or urgent care
-ALLERGIES = Present allergies to food/medication/other products
+The purpose of listing these datasets and their columns are for later in the project to refer to, not only for project members but those who read this, for readability on what these columns represent.
 
 
-The data comes from this site:
-https://vaers.hhs.gov/data.html
+# Movies_Metadata:
+
+adult = Boolean if movies are considered adult or not
+belongs_to_collection = Denotes if a movie belongs to a collection, and if so, which one
+budget = Budget of the given movie
+genres = Genre of which the movie is catagorized
+homepage = Homepage for the movie
+imdb_id = Unique ID for the movie on IMDB
+original_language = Original language the movie was presented in
+original_title = Original title (in original language) of the movie
+overview = Synopsis of the movie
+popularity = The popularity of the movie
+poster_path = Path to the poster image of the movie
+production_companies = Production companies involved with the movie
+production_countries =  Country the movie was produced in
+release_date = Release date of the movie to the public
+revenue = The amount of revenue earned from the movie
+runtime = The runtime of the movie
+spoken_languages = The languages spoken in the movie
+status = Denotes if the movie was released or not at the time of the dataset
+tagline = Tagline for the movie
+title = Title for the movie
+video = Boolean on if the movies were direct released on video
+vote_average = The average score of votes
+vote_count = The number of votes a film recieved.
+
+
+# Oscar:
+
+year_film = Year the film was released
+year_ceremony = Year the Oscars ceremony took place
+ceremony = Which number ceremy of the Oscars it was (i.e, first Oscars ceremony in 1928 would be '1', whereas the 2016 Oscars ceremony would be '88')
+category = The category the film was in the running to recieve a reward in (Actor, Actress, Art direction, Directing, ect)
+name = The name of the person nominated for the award
+film = The name of the film nominated
+winner = Boolean of whether the nominee was the winner.
+
+
+

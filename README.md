@@ -33,6 +33,8 @@ The main movie dataset was originally sourced from The Movie Database (TMDB) via
 To further our data analysis, we sourced the [Oscars Dataset](https://www.kaggle.com/rounakbanik/the-movies-dataset?select=movies_metadata.csv) which was originally scraped from the official Academy Awards seach site.
 
 ### Machine Learning Model
+![image](https://user-images.githubusercontent.com/85204128/138625256-77b58a78-289b-489b-b88e-c9c5167964b3.png)
+
 The objective of our project is to compare different machine learning models to identify the model that yields the best prediction score. The models to be used are logistic regression, linear regression for those "nominated vs not nominated, and a decision tree/random forest model. 
 
 We will look to find the most accurate model.
@@ -48,6 +50,8 @@ Due to the selective nature of the Academy, we will assess the majority populati
 #### Database Storage
 We will use PostgreSQL as our relational database storage.
 
+![image](https://user-images.githubusercontent.com/85204128/138626925-0c5e9b0f-1efd-4c8c-b5f8-ebd53b9cd399.png)
+
 #### Data Cleaning
 We will use Python to Extract, Transform and Load and perform meaning analysis over the data. We will be using the ImbalancedLearn, Pandas, Numpy, and SciKitLearn packages.
 
@@ -58,6 +62,11 @@ Our machine learning models will leverage SciKitLearn and ImbalancedLearn Python
 We will leverage D3 Javascript/Tableau to create our dashboard to present our findings.
 
 ### Communication Protocols
+
 We plan to meet once a week outside of our class time and on an adhoc basis where need be to discuss the progress of the project, any blockers, and to ensure the project is on track. To faciliate easy communication within the group, we create a slack channel for all team members.
+
+We plan to meet once a week outside of our class time and on an adhoc basis where need be to discuss the progress of the project, any blockers, and to ensure the project is on track. To faciliate easy communication within the group, we created a slack channel for all team members.
+
+
 
 
