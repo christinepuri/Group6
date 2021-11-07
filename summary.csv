@@ -1,0 +1,13 @@
+,BA_Score,Confusion Matrix,pre,rec,spe,f1
+Naive Random Oversampling,0.97,"[[1036   28]
+ [  39 1003]]",0.97,0.96,0.97,0.97
+Cluster Centroids Undersampling,0.97,"[[1035   29]
+ [  34 1008]]",0.97,0.97,0.97,0.97
+SMOTE,0.96,"[[1036   28]
+ [  49  993]]",0.97,0.95,0.97,0.96
+SMOTEENN,0.88,"[[1037   27]
+ [ 233  809]]",0.97,0.78,0.97,0.86
+Random Forest,0.97,"[[1037   27]
+ [  33 1009]]",0.97,0.97,0.97,0.97
+Random Forest w/ Easy Ensemble Classifier ,0.98,"[[1035   29]
+ [  18 1024]]",0.97,0.98,0.97,0.98
