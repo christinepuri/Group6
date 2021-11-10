@@ -6,7 +6,8 @@ SELECT * FROM "Oscars";
 /* Joining Tables to create a new one */
 
 CREATE TABLE Combination_Table AS
-SELECT m.budget, m.release_year, m.revenue, m.runtime, m.title, m.genres, m.nominated,
+SELECT m.release_year, m.title, m.genres, m.nominated, m.budget_ranges, 
+		m.revenue_ranges, m.runtime_ranges,
 		o.film, o.winner, o.category
 	FROM "Movies" m
 	JOIN "Oscars" o
@@ -22,3 +23,6 @@ SELECT * FROM Combination_Table;
 SELECT genres, AVG(budget)
 FROM combination_table
 GROUP BY genres;
+
+/*Incase of needing to drop table...*/
+DROP TABLE Combination_Table
