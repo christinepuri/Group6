@@ -8,7 +8,7 @@ SELECT * FROM "Oscars";
 CREATE TABLE Combination_Table AS
 SELECT m.release_year, m.title, m.genres, m.nominated, m.budget_ranges, 
 		m.revenue_ranges, m.runtime_ranges,
-		o.film, o.winner, o.category
+		o.film, o.winner
 	FROM "Movies" m
 	JOIN "Oscars" o
 		ON o.film = m.title;
