@@ -54,8 +54,8 @@ We will use PostgreSQL as our relational database storage.
 
 #### Data Cleaning
 We will use Python to Extract, Transform and Load and perform meaning analysis over the data. We will be using the ImbalancedLearn, Pandas, Numpy, and SciKitLearn packages.
-Cleaning the data took a variety of steps to perform. The first step was to clean up the data by regex processing category, production companies and genres. The next step was to correct the datatype of release date from an object into a datetime format. From there, year was extracted from the release_date and turned into release year. After that, nulls were cleaned up from important columns such as budget, revenue, runtime and genres. From there, a new column was made to determine if a film was even up for nomination or not, and then if the film was a winner, it was changed to a binary classification system. Lastly, binning was performed on budget, runtime and revenue to further help the machine learning model. These three categories were binned into 'Low', 'Medium' and 'High' categories.
 
+Cleaning the data took a variety of steps to perform. The first step was to clean up the data by regex processing category, production companies and genres. The next step was to correct the datatype of release date from an object into a datetime format. From there, year was extracted from the release_date and turned into release year. After that, nulls were cleaned up from important columns such as budget, revenue, runtime and genres. From there, a new column was made to determine if a film was even up for nomination or not, and then if the film was a winner, it was changed to a binary classification system. Lastly, binning was performed on budget, runtime and revenue to further help the machine learning model. These three categories were binned into 'Low', 'Medium' and 'High' categories.
 
 To further expand on the binning, the following are the ranges for each column:
 
