@@ -1,8 +1,8 @@
 ,BA_Score,Confusion Matrix,pre,rec,spe,f1
 Naive Random Oversampling,0.67,"[[ 18  11]
  [290 747]]",0.99,0.72,0.62,0.83
-Cluster Centroids Undersampling,0.68,"[[ 28   1]
- [629 408]]",1.0,0.39,0.97,0.56
+Cluster Centroids Undersampling,0.69,"[[ 28   1]
+ [612 425]]",1.0,0.41,0.97,0.58
 SMOTE,0.57,"[[  7  22]
  [113 924]]",0.98,0.89,0.24,0.93
 SMOTEENN,0.63,"[[ 10  19]
