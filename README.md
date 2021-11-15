@@ -79,7 +79,7 @@ Runtime: Low: 0 to 95 ; Med: 95 to 120 ; High: 120 to 338
 Our machine learning models will leverage SciKitLearn and ImbalancedLearn Python packages. Due to the oscar imbalance, we will use random over/undersampling, SMOTE, Cluster Centroid Undersampling, and/or SMOTEEN.
 
 #### Dashboard
-We will leverage D3 Javascript/Tableau to create our dashboard to present our findings.
+We will leverage Tableau to create our dashboard to present our findings.
 
 ### Communication Protocols
 

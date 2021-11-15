@@ -7,8 +7,8 @@ SELECT * FROM "Oscars";
 
 CREATE TABLE Combination_Table AS
 SELECT m.release_year, m.title, m.genres, m.nominated, m.budget_ranges, 
-		m.revenue_ranges, m.runtime_ranges,
-		o.film, o.winner, o.category
+		m.revenue_ranges, m.runtime_ranges, m.budget, m.revenue, m.runtime,
+		o.film, o.winner
 	FROM "Movies" m
 	JOIN "Oscars" o
 		ON o.film = m.title;
@@ -30,10 +30,13 @@ DROP TABLE Combination_Table
 
 
 
-/* Combo table V2*/
+
+
+
+/* Combo table V2 -- This table is not used and was only to make sure that the other table is the optimal version of the combo table */
 CREATE TABLE Combination_Table_V2 AS
 SELECT m.release_year, m.title, m.genres, m.nominated, m.budget_ranges, 
-		m.revenue_ranges, m.runtime_ranges,
+		m.revenue_ranges, m.runtime_ranges, m.budget, m.revenue, m.runtime,
 		o.film, o.winner , o.category
 	FROM "Oscars" o
 	LEFT JOIN "Movies" m
