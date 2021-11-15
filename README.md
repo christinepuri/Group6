@@ -35,14 +35,18 @@ To further our data analysis, we sourced the [Oscars Dataset](https://www.kaggle
 ### Machine Learning Model
 ![image](https://user-images.githubusercontent.com/85204128/138625256-77b58a78-289b-489b-b88e-c9c5167964b3.png)
 
-The objective of our project is to compare different machine learning models to identify the model that yields the best prediction score. The models to be used are logistic regression and a decision tree/random forest model. Due to the selective nature of the Academy, we will assess the majority population using over/under sampling in our models in order to remove any sampling bias in the underlying data.
+The objective of our project is to compare different machine learning models to identify the model that yields the best prediction score. The models to be used are logistic regression and a decision tree/random forest model. Due to the selective nature of the Academy, we will assess the majority population using over/under sampling in our models in order to remove any sampling bias in the underlying data. We will look to find the most accurate/precise model.
 
-We will look to find the most accurate/precise model.
+#### Model Benfits/Limitations
+Random Forest Models are more likely to overfit the data, since they can split on multiple features whereas Logistic Regression handles better where the dimensionality is limited (single or limited variables).
 
+
+#### Independent and Target Variables
 Independent Vars: Genre (Dummy), Budget_Ranges (Dummy), Revenue_Ranges (Dummy), Runtime_Ranges (Dummy)
 
 Dependent Vars: Nomination (Binary)
 
+#### Updates to feature sleection
 In testing the model, we were experiencing high bias, due to the underlying dataset being too simplistic. We found that in the process of feature selection, we dropped too many variables which caused more assumptions about the target value. To address these issue, we worked to further cleanse the data upstream by binnning budget, revenue, and runtime into low, medium and high buckets. This along with dropping null rows, allowed us to combat our underfitting issue.  
 
 
