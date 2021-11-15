@@ -82,12 +82,6 @@ Our machine learning models will leverage SciKitLearn and ImbalancedLearn Python
 #### Dashboard
 We will leverage Tableau to create our dashboard to present our findings.
 
-### Communication Protocols
-
-We plan to meet once a week outside of our class time and on an adhoc basis where need be to discuss the progress of the project, any blockers, and to ensure the project is on track. To faciliate easy communication within the group, we create a slack channel for all team members.
-
-We plan to meet once a week outside of our class time and on an adhoc basis where need be to discuss the progress of the project, any blockers, and to ensure the project is on track. To faciliate easy communication within the group, we created a slack channel for all team members.
-
 ### Presentation Slides
 
 https://docs.google.com/presentation/d/1opc5KLKpjus9UlxG3wxBxZ-m9Nip0FbfC7nTA2BDFJ8/edit#slide=id.gfb441503e5_0_5
@@ -95,7 +89,6 @@ https://docs.google.com/presentation/d/1opc5KLKpjus9UlxG3wxBxZ-m9Nip0FbfC7nTA2BD
 ### Dashboard Slides
 
 https://public.tableau.com/app/profile/christine.ibrahim.puri/viz/Oscar_Nominations_DashboardSegment3/Dashboard1
-
 
 
 
