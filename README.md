@@ -15,7 +15,6 @@ Jake Littman
 #### Data Visualization and Presentation
 Christine Ibrahim Puri
 Elena Rivera
-Simon Chamorro
 
 #### Technologies
 Oneil Anderson
@@ -50,6 +49,9 @@ Dependent Vars: Nomination (Binary)
 In testing the model, we were experiencing high bias, due to the underlying dataset being too simplistic. We found that in the process of feature selection, we dropped too many variables which caused more assumptions about the target value. To address these issue, we worked to further cleanse the data upstream by binnning budget, revenue, and runtime into low, medium and high buckets. 
 
 This along with dropping null rows, allowed us to combat our underfitting issue help us answer our question of what features/model will be useful for production companies to use in making informed decisions about movie selections and key attributes that will lead to an oscar nomination
+
+#### Current Balanced Accuracy Score
+Using the Random Forest Model, we yielded Balanced Accuracy Score of 78%. This shows that our Nominated classificaiton is performing much better than all the negative (non-nomimated) classifiers. 
 
 
 ### Technology
