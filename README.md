@@ -30,7 +30,7 @@ Our project will analyze movies throughout history. Using the datasets at our di
 ### Dataset Details:
 The main movie dataset was originally sourced from The Movie Database (TMDB) via an Open API. We sourced this dataset via a [Kaggle Movies Dataset](https://www.kaggle.com/rounakbanik/the-movies-dataset?select=movies_metadata.csv). 
 
-To further our data analysis, we sourced the [Oscars Dataset](https://www.kaggle.com/rounakbanik/the-movies-dataset?select=movies_metadata.csv) which was originally scraped from the official Academy Awards seach site.
+To further our data analysis, we sourced the [Oscars Dataset](https://www.kaggle.com/unanimad/the-oscar-award) which was originally scraped from the official Academy Awards seach site.
 
 ### Machine Learning Model
 ![image](https://user-images.githubusercontent.com/85204128/138625256-77b58a78-289b-489b-b88e-c9c5167964b3.png)
@@ -147,10 +147,10 @@ Independent Vars: Genre (Dummy), Budget_Ranges (Dummy), Revenue_Ranges (Dummy), 
 
 Dependent Vars: Nomination (Binary)
 
-#### Updates to feature sleection and findings
+#### Updates to feature selection and findings
 In testing the model, we were experiencing high bias, due to the underlying dataset being too simplistic. We found that in the process of feature selection, we dropped too many variables which caused more assumptions about the target value. To address these issue, we worked to further cleanse the data upstream by binnning budget, revenue, and runtime into low, medium and high buckets. 
 
-This along with dropping null rows, allowed us to combat our underfitting issue help us answer our question of what features/model will be useful for production companies to use in making informed decisions about movie selections and key attributes that will lead to an oscar nomination
+This along with dropping null rows, allowed us to combat our underfitting issue help us answer our question of what features/model will be useful for production companies to use in making informed decisions about movie selections and key attributes that will lead to an oscar nomination in future Academy Awards.
 
 #### Current Balanced Accuracy Score
 Using the Random Forest Model, we yielded Balanced Accuracy Score of 78%. This shows that our Nominated classificaiton is performing much better than all the negative (non-nomimated) classifiers. 
