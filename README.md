@@ -53,8 +53,8 @@ We will use PostgreSQL as our relational database storage.
 ![image](https://user-images.githubusercontent.com/85204128/138626925-0c5e9b0f-1efd-4c8c-b5f8-ebd53b9cd399.png)
 
 #### Data Cleaning
-We will use Python to Extract, Transform and Load and perform meaning analysis over the data. We will be using the ImbalancedLearn, Pandas, Numpy, and SciKitLearn packages.
 
+To perform ETL on the data to analyze it, we used Python by way of Jupyter Notebook. In Jupyter Notebook, we imported the packages of Pandas, Numpy, RegEx, Datetime, and also imported create_engine from SQLAlchemy to export the cleansed data to the database.
 Cleaning the data took a variety of steps to perform. The first step was to clean up the data by regex processing category, production companies and genres. The next step was to correct the datatype of release date from an object into a datetime format. From there, year was extracted from the release_date and turned into release year. After that, nulls were cleaned up from important columns such as budget, revenue, runtime and genres. From there, a new column was made to determine if a film was even up for nomination or not, and then if the film was a winner, it was changed to a binary classification system. Lastly, binning was performed on budget, runtime and revenue to further help the machine learning model. These three categories were binned into 'Low', 'Medium' and 'High' categories.
 
 To further expand on the binning, the following are the ranges for each column:
