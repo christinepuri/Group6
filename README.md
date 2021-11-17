@@ -47,11 +47,6 @@ Due to the selective nature of the Academy, we will assess the majority populati
 
 ### Technology
 
-#### Database Storage
-We will use PostgreSQL as our relational database storage.
-
-![image](https://user-images.githubusercontent.com/85204128/138626925-0c5e9b0f-1efd-4c8c-b5f8-ebd53b9cd399.png)
-
 #### Data Cleaning
 
 To perform ETL on the data to analyze it, we used Python by way of Jupyter Notebook. In Jupyter Notebook, we imported the packages of Pandas, Numpy, RegEx, Datetime, and also imported create_engine from SQLAlchemy to export the cleansed data to the database.
@@ -64,6 +59,11 @@ Budget: Low: 0 to 5.200000e+06 ; Medium: 5.200000e+06  to 4.000000e+07 ; High: 4
 Revenue: Low: 0 to 7.083172e+06 ; Medium: 7.083172e+06 to  1.000000e+08 ; High: 1.000000e+08 to 2.787965e+09
 
 Runtime: Low: 0 to 95 ; Med: 95 to 120 ; High: 120 to 338
+
+#### Database Storage
+For the database storage, we have used PostgreSQL. The following is the ERD, showing the cleansed databases (Movies and Oscars) into a combined database. The two databases were combined in PostgreSQL.
+
+![image](https://user-images.githubusercontent.com/85204128/138626925-0c5e9b0f-1efd-4c8c-b5f8-ebd53b9cd399.png)
 
 
 #### Machine Learning
