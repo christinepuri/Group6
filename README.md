@@ -1,3 +1,4 @@
+
 # Oscar Nominations
 Team Members: Brieona Turner, Jake Littman, Christina Ibrahim Puri, Oneil Anderson, Elena Rivera, Simon Chamorro
 
@@ -88,8 +89,5 @@ https://docs.google.com/presentation/d/1opc5KLKpjus9UlxG3wxBxZ-m9Nip0FbfC7nTA2BD
 ### Dashboard Slides
 
 https://public.tableau.com/app/profile/elena.rivera4127/viz/OscarNominationsDashboardStoryboard-Segment4v2/OscarNominationsDashboard?publish=yes
-
-
-
 
 
