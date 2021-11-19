@@ -45,6 +45,9 @@ Independent Vars: Genre (Dummy), Budget_Ranges (Dummy), Revenue_Ranges (Dummy), 
 
 Dependent Vars: Nomination (Binary)
 
+#### Train_Test_Split Model
+We imported the train_test_split model to split the dataset 50/50 by movie titles. There are 4,264 movie titles in the population that were used.
+
 #### Updates to feature selection and findings
 In testing the model, we were experiencing high bias, due to the underlying dataset being too simplistic. We found that in the process of feature selection, we dropped too many variables which caused more assumptions about the target value. To address this issue, we worked to further cleanse the data upstream by binnning budget, revenue, and runtime into low, medium and high buckets. 
 
