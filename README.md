@@ -21,7 +21,7 @@ Elena Rivera
 Oneil Anderson
 
 ### Project Overview: 
-Our project will analyze movies throughout history. Using the datasets at our disposal, we will identify the variables that relate to oscar performance of actors/actresses/directors and writers. We will use machine learning models to help predict outcomes of the oscars and address the following questions:
+Our project analyzed movies throughout history. Using the datasets at our disposal, we identified the variables that relate to oscar performance of actors/actresses/directors and writers. We will use machine learning models to help predict outcomes of the oscars and address the following questions:
 
 - Why do certain genres outperform others?
 - What factors influence movie nominations?
