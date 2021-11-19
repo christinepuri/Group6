@@ -63,7 +63,8 @@ Runtime: Low: 0 to 95 ; Med: 95 to 120 ; High: 120 to 338
 #### Database Storage
 For the database storage, we have used PostgreSQL. The following is the ERD, showing the cleansed databases (Movies and Oscars) into a combined database. The two databases were combined in PostgreSQL.
 
-![image](https://github.com/christinepuri/Group6/blob/brieonat_database/Charts_and_Graphs/Database_ERD.png)
+![image](https://user-images.githubusercontent.com/85204128/138626925-0c5e9b0f-1efd-4c8c-b5f8-ebd53b9cd399.png)
+
 
 
 #### Machine Learning
