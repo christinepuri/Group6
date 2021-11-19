@@ -1,4 +1,3 @@
-
 # Oscar Nominations
 Team Members: Brieona Turner, Jake Littman, Christina Ibrahim Puri, Oneil Anderson, Elena Rivera, Simon Chamorro
 
@@ -56,15 +55,9 @@ Using the Random Forest Model, we yielded Balanced Accuracy Score of 78%. This s
 
 
 ### Technology
-
-#### Database Storage
-We will use PostgreSQL as our relational database storage.
-
-![image](https://github.com/christinepuri/Group6/blob/main/Database_ERD.png)
-
 #### Data Cleaning
-We will use Python to Extract, Transform and Load and perform meaning analysis over the data. We will be using the ImbalancedLearn, Pandas, Numpy, and SciKitLearn packages.
 
+To perform ETL on the data to analyze it, we used Python by way of Jupyter Notebook. In Jupyter Notebook, we imported the packages of Pandas, Numpy, RegEx, Datetime, and also imported create_engine from SQLAlchemy to export the cleansed data to the database.
 Cleaning the data took a variety of steps to perform. The first step was to clean up the data by regex processing category, production companies and genres. The next step was to correct the datatype of release date from an object into a datetime format. From there, year was extracted from the release_date and turned into release year. After that, nulls were cleaned up from important columns such as budget, revenue, runtime and genres. From there, a new column was made to determine if a film was even up for nomination or not, and then if the film was a winner, it was changed to a binary classification system. Lastly, binning was performed on budget, runtime and revenue to further help the machine learning model. These three categories were binned into 'Low', 'Medium' and 'High' categories.
 
 To further expand on the binning, the following are the ranges for each column:
@@ -74,6 +67,11 @@ Budget: Low: 0 to 5.200000e+06 ; Medium: 5.200000e+06  to 4.000000e+07 ; High: 4
 Revenue: Low: 0 to 7.083172e+06 ; Medium: 7.083172e+06 to  1.000000e+08 ; High: 1.000000e+08 to 2.787965e+09
 
 Runtime: Low: 0 to 95 ; Med: 95 to 120 ; High: 120 to 338
+
+#### Database Storage
+For the database storage, we have used PostgreSQL. The following is the ERD, showing the cleansed databases (Movies and Oscars) into a combined database. The two databases were combined in PostgreSQL.
+
+![image](https://user-images.githubusercontent.com/85204128/138626925-0c5e9b0f-1efd-4c8c-b5f8-ebd53b9cd399.png)
 
 
 #### Machine Learning
